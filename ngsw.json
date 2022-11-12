@@ -1,0 +1,64 @@
+{
+  "configVersion": 1,
+  "timestamp": 1668295738446,
+  "index": "https://taleynikov.github.io/vn-test-prototype/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://taleynikov.github.io/vn-test-prototype/favicon.ico",
+        "https://taleynikov.github.io/vn-test-prototype/index.html",
+        "https://taleynikov.github.io/vn-test-prototype/main.fd33cd63bae9882a.js",
+        "https://taleynikov.github.io/vn-test-prototype/manifest.webmanifest",
+        "https://taleynikov.github.io/vn-test-prototype/polyfills.58ecbec2b3a12680.js",
+        "https://taleynikov.github.io/vn-test-prototype/runtime.d9a02c90ffbb1456.js",
+        "https://taleynikov.github.io/vn-test-prototype/styles.ab461bdad19688b4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://taleynikov.github.io/vn-test-prototype/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://taleynikov.github.io/vn-test-prototype/index.html": "e2c14d18b4a7415fecdf3634d43effbf7a20ebd9",
+    "https://taleynikov.github.io/vn-test-prototype/main.fd33cd63bae9882a.js": "af6b092ecd77abdc5cd7a70c3ea6cfd4349eac94",
+    "https://taleynikov.github.io/vn-test-prototype/manifest.webmanifest": "ad129ee4eab4da2bea004b9601186d4f3e8c1225",
+    "https://taleynikov.github.io/vn-test-prototype/polyfills.58ecbec2b3a12680.js": "dd9b5fb70929bdb2c1b611aa90cdcc5293f63726",
+    "https://taleynikov.github.io/vn-test-prototype/runtime.d9a02c90ffbb1456.js": "ac2a84002161be04b9546fd7c3b5f102a0d7e9dd",
+    "https://taleynikov.github.io/vn-test-prototype/styles.ab461bdad19688b4.css": "b1d216a0b61b1676f22dc6c0712e8fef43bf45f1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
